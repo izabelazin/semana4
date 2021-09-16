@@ -11,3 +11,5 @@ setInterval(function() {
     const date = new Date()
     timeValue.textContent = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
 }, 1000)
+
+console.log('acabou')
